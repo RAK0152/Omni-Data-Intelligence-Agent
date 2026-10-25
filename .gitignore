@@ -1,0 +1,33 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+application_default_credentials.json
+service-account*.json
+service_account*.json
+*.pem
+*.key
+.gcloud/
+secrets/
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/
+*.log
